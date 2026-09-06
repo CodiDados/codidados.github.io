@@ -1,0 +1,10 @@
+{{ $logo := resources.Get "images/codidados-logo.png" }}
+{{ with $logo }}
+  <img
+    src="{{ .RelPermalink }}"
+    width="{{ .Width }}"
+    height="{{ .Height }}"
+    alt="CodiDados Soluções"
+    class="{{ $.class }}"
+  />
+{{ end }}

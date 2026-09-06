@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="site-container header-inner">
+    <a href="/#inicio" class="brand" aria-label="CodiDados Soluções — início">
+      {{ partial "logo.html" (dict "class" "brand-logo") }}
+    </a>
+    <button
+      class="menu-button"
+      type="button"
+      aria-expanded="false"
+      aria-controls="main-menu"
+      aria-label="Abrir menu"
+      data-menu-button
+    >
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="main-menu" class="main-nav" aria-label="Navegação principal" data-menu>
+      <ul>
+        {{ range site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <a class="button button-small" href="/#contato">Fale conosco</a>
+    </nav>
+  </div>
+</header>

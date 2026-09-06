@@ -1,0 +1,35 @@
+name: "CodiDados Soluções"
+shortName: "CodiDados"
+domain: "codidados.com.br"
+headline: "Soluções especializadas em ERP Protheus, PostgreSQL, integrações e automação."
+description: "Consultoria e desenvolvimento de soluções para tornar processos empresariais mais confiáveis, integrados e eficientes."
+technologies:
+  - "ERP Protheus"
+  - "PostgreSQL"
+  - "Python"
+  - "APIs"
+positioning:
+  title: "Tecnologia com transparência"
+  text: "Além dos serviços prestados aos clientes, a CodiDados mantém projetos públicos, laboratórios e artigos técnicos que demonstram, na prática, as tecnologias e metodologias utilizadas."
+differentials:
+  title: "Experiência aplicada a soluções reais"
+  highlight: "O cliente conversa diretamente com quem analisa, projeta e implementa a solução."
+  items:
+    - "Experiência em tecnologia desde 1991"
+    - "Conhecimento técnico e funcional do ERP Protheus"
+    - "Experiência com bancos de dados, integrações e automação"
+    - "Atendimento direto com o responsável técnico"
+    - "Soluções documentadas e orientadas à manutenção"
+    - "Projetos públicos e conteúdo técnico disponível"
+    - "Aprendizado e evolução tecnológica contínuos"
+about:
+  title: "Quem está por trás da CodiDados"
+  institutional: "A CodiDados Soluções atua em consultoria e desenvolvimento de soluções voltadas para ERP Protheus, bancos de dados, integração de sistemas e automação."
+  professional: "A empresa é conduzida por Dirlei Friedrich, profissional de tecnologia com experiência desde 1991 e trajetória em infraestrutura, redes, desenvolvimento de software, ERP Protheus, bancos de dados, Business Intelligence e análise de dados."
+  current: "Atualmente, sua atuação combina experiência consolidada em sistemas empresariais com aprofundamento em PostgreSQL, Database Reliability, automação, DevOps e Engenharia de Dados."
+  photo: ""
+contact:
+  title: "Vamos conversar?"
+  text: "Entre em contato para conversar sobre ERP Protheus, bancos de dados, integrações, automação ou outros desafios técnicos."
+  email: "contato@codidados.com.br"
+  emailSubject: "Contato pelo site da CodiDados"

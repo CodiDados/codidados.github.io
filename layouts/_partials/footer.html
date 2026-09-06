@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="site-container footer-main">
+    <div>
+      <a href="/#inicio" class="footer-brand" aria-label="CodiDados Soluções — início">
+        {{ partial "logo.html" (dict "class" "footer-logo") }}
+      </a>
+      <p>Soluções técnicas para sistemas empresariais, dados, integrações e automação.</p>
+    </div>
+    <nav aria-label="Navegação do rodapé">
+      <ul>
+        {{ range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+      </ul>
+    </nav>
+    <div>
+      <p class="footer-title">Canais</p>
+      {{ partial "social-links.html" (dict "class" "social-links" "label" "Canais da CodiDados" "showLabel" false) }}
+      {{ with site.Data.company.contact.email }}<a class="footer-email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+    </div>
+  </div>
+  <div class="site-container footer-bottom">
+    <p>© {{ now.Year }} {{ site.Data.company.name }}. Todos os direitos reservados.</p>
+    <p><a href="{{ site.BaseURL }}">{{ site.Data.company.domain }}</a> · Construído com <a href="https://gohugo.io/">Hugo</a></p>
+  </div>
+</footer>

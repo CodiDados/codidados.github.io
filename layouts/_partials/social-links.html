@@ -1,0 +1,17 @@
+{{ $social := site.Data.social }}
+{{ $class := default "social-links" .class }}
+<ul class="{{ $class }}" aria-label="{{ default "Links externos" .label }}">
+  {{ range slice "github" "linkedin" "blog" "telegram" "whatsapp" }}
+    {{ $name := . }}
+    {{ $url := index $social $name }}
+    {{ if $url }}
+      {{ $labels := dict "github" "GitHub" "linkedin" "LinkedIn" "blog" "Blog" "telegram" "Telegram" "whatsapp" "WhatsApp" }}
+      <li>
+        <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ index $labels $name }} — abre em nova aba">
+          {{ partial "icon.html" $name }}
+          {{ if $.showLabel }}<span>{{ index $labels $name }}</span>{{ end }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

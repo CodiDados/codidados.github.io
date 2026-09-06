@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://codidados.com.br/sitemap.xml

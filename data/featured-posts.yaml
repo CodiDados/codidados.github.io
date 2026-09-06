@@ -1,0 +1,8 @@
+# Cadastre até três artigos. A grade não é exibida enquanto não houver itens com URL.
+items: []
+# Exemplo:
+# items:
+#   - title: "Título do artigo"
+#     summary: "Resumo curto."
+#     url: "https://dfls.eti.br/artigo/"
+#     image: ""

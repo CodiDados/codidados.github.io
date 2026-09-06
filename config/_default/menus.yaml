@@ -1,0 +1,19 @@
+main:
+  - name: "Início"
+    url: "/#inicio"
+    weight: 1
+  - name: "Serviços"
+    url: "/#servicos"
+    weight: 2
+  - name: "Projetos"
+    url: "/#projetos"
+    weight: 3
+  - name: "Conteúdo Técnico"
+    url: "/#conteudo"
+    weight: 4
+  - name: "Sobre"
+    url: "/#sobre"
+    weight: 5
+  - name: "Contato"
+    url: "/#contato"
+    weight: 6
