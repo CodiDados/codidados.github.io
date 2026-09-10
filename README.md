@@ -64,6 +64,7 @@ data/
 layouts/                 # Templates Hugo adaptados
 static/
 ├── CNAME                # Domínio personalizado
+├── img/codidados-logo-email.png # URL preservada para assinaturas de e-mail
 └── robots.txt
 legacy-site/             # Cópia dos arquivos do site anterior
 ```
@@ -78,6 +79,7 @@ legacy-site/             # Cópia dos arquivos do site anterior
 - Menu: `config/_default/menus.yaml`
 - Título, descrição, domínio e cores: `hugo.yaml`
 - Logo do cabeçalho e rodapé: `assets/images/codidados-logo.png` (versão 2, recortada, em PNG transparente)
+- Logo das assinaturas de e-mail: `static/img/codidados-logo-email.png`, publicado sem processamento em `/img/codidados-logo-email.png`. Preserve esse caminho para manter as assinaturas existentes funcionando.
 - Ícones: `assets/images/codidados-symbol.png` (versão 3 centralizada em uma tela quadrada transparente); o Hugo gera os tamanhos de 32 e 180 px
 - Compartilhamento social: `assets/images/codidados-social.png` (logo horizontal sobre fundo branco, 600 × 315 px)
 
@@ -103,7 +105,7 @@ Foram reaproveitados:
 - domínio `codidados.com.br`;
 - e-mail `contato@codidados.com.br`.
 
-O HTML e o CSS anteriores foram transferidos sem alteração para `legacy-site/`, junto com cópias das imagens e do antigo `CNAME`. A raiz `img/` também foi mantida como acervo original. A nova versão substitui a página única manual por templates Hugo, conteúdo centralizado em YAML, Tailwind e publicação por GitHub Actions.
+O HTML e o CSS anteriores foram transferidos sem alteração para `legacy-site/`, junto com cópias das imagens e do antigo `CNAME`. A antiga pasta `img/` da raiz foi removida; a imagem da assinatura de e-mail é mantida em `static/img/` para preservar sua URL pública. A nova versão substitui a página única manual por templates Hugo, conteúdo centralizado em YAML, Tailwind e publicação por GitHub Actions.
 
 ## Créditos
 
